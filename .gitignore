@@ -1,0 +1,71 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local Environment Variables & Secrets
+.env
+.env.local
+*.env
+
+# Large Datasets & Media (DeepFashion2, Stanford Cars, etc.)
+# Never commit raw gigabytes of images to Git
+data/raw/*
+data/processed/*
+data/embeddings/*
+data/forecasts/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/embeddings/.gitkeep
+!data/forecasts/.gitkeep
+!data/samples/
+
+# Model Checkpoints and Weights
+models/*.pt
+models/*.pth
+models/*.bin
+models/*.onnx
+!models/.gitkeep
+
+# IDE and Operating System Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

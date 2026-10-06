@@ -1,0 +1,30 @@
+# Core Image Processing & Numerical Computing
+numpy>=1.24.0
+pandas>=2.0.0
+Pillow>=10.0.0
+
+# Deep Learning & Feature Extraction (CNN / ResNet / CLIP)
+torch>=2.2.0
+torchvision>=0.17.0
+
+# Machine Learning & Clustering (K-Means, DBSCAN, Cosine Similarity)
+scikit-learn>=1.4.0
+scipy>=1.12.0
+
+# Time Series Forecasting
+prophet>=1.1.5
+
+# Web API Backend & Validation
+fastapi>=0.110.0
+uvicorn[standard]>=0.28.0
+pydantic>=2.6.0
+python-multipart>=0.0.9
+
+# Database Connector (PostgreSQL)
+psycopg2-binary>=2.9.9
+SQLAlchemy>=2.0.0
+
+# Utilities & Testing
+python-dotenv>=1.0.1
+tqdm>=4.66.0
+pytest>=8.0.0
