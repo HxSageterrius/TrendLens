@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TrendLens — AI Visual Fashion Trend Analysis & Forecasting</title>
+  <meta name="description" content="AI-Powered Visual Fashion Trend Analysis, Deep Feature Embeddings, K-Means Clustering, and Time-Series Forecasting">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Chart.js for smooth time-series charts -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
+  <link rel="stylesheet" href="/web/style.css">
+</head>
+<body>
+  <!-- App Container -->
+  <div class="app-container">
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+      <div class="brand-section">
+        <div class="brand-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <h2>TrendLens</h2>
+          <span>Fashion AI & Forecasting</span>
+        </div>
+      </div>
+
+      <nav class="nav-links">
+        <button class="nav-btn active" data-tab="forecast-tab">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="M18.7 8l-5.1 5.2-2.8-2.7L7 14.3"/></svg>
+          Trend Forecasting
+        </button>
+        <button class="nav-btn" data-tab="clusters-tab">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><circle cx="19" cy="5" r="2"/><circle cx="5" cy="19" r="2"/><circle cx="19" cy="19" r="2"/><circle cx="5" cy="5" r="2"/></svg>
+          Visual Clusters
+        </button>
+        <button class="nav-btn" data-tab="similarity-tab">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/><path d="M11 8v6M8 11h6"/></svg>
+          Visual Search & Match
+        </button>
+        <button class="nav-btn" data-tab="catalog-tab">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+          Fashion Catalog
+        </button>
+      </nav>
+
+      <div class="pipeline-badge">
+        <div class="pipeline-status-dot"></div>
+        <div class="pipeline-status-text">
+          <strong>Pipeline Status</strong>
+          <span id="pipeline-status-indicator">Connected to FastAPI</span>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+      <!-- Top Header -->
+      <header class="top-header">
+        <div class="header-titles">
+          <h1>Fashion Visual Intelligence</h1>
+          <p>End-to-End Deep Feature Learning, Cluster Aggregation & Trajectory Forecasting</p>
+        </div>
+        <div class="header-actions">
+          <div class="reference-badge">
+            <span class="badge-tag">Reference Architecture</span>
+            <span class="badge-name">TrendVerse MLOps</span>
+          </div>
+        </div>
+      </header>
+
+      <!-- Key Metrics HUD -->
+      <section class="metrics-grid">
+        <div class="metric-card glass">
+          <div class="metric-header">
+            <span>Active Trends</span>
+            <div class="metric-icon cyan">📈</div>
+          </div>
+          <div class="metric-value" id="hud-active-trends">6 Styles</div>
+          <div class="metric-trend positive" id="hud-top-trend">Top: Minimalist (+21.4%)</div>
+        </div>
+
+        <div class="metric-card glass">
+          <div class="metric-header">
+            <span>Forecast Horizon</span>
+            <div class="metric-icon purple">⏱️</div>
+          </div>
+          <div class="metric-value" id="hud-horizon">12 Weeks</div>
+          <div class="metric-trend neutral">90% Confidence Interval</div>
+        </div>
+
+        <div class="metric-card glass">
+          <div class="metric-header">
+            <span>Visual Clustering</span>
+            <div class="metric-icon emerald">✨</div>
+          </div>
+          <div class="metric-value" id="hud-clusters">K=5 Groups</div>
+          <div class="metric-trend positive" id="hud-silhouette">Silhouette: 0.384</div>
+        </div>
+
+        <div class="metric-card glass">
+          <div class="metric-header">
+            <span>Deep Vision Model</span>
+            <div class="metric-icon amber">🧠</div>
+          </div>
+          <div class="metric-value">ResNet-18</div>
+          <div class="metric-trend neutral">512-dim Normalized Vectors</div>
+        </div>
+      </section>
+
+      <!-- TAB 1: Trend Forecasting -->
+      <section id="forecast-tab" class="tab-pane active">
+        <div class="section-card glass">
+          <div class="card-toolbar">
+            <div class="toolbar-title">
+              <h2>Time-Series Trajectory Forecaster</h2>
+              <p>Predicting weekly engagement volume & emerging fashion momentum</p>
+            </div>
+            <div class="toolbar-controls">
+              <div class="control-group">
+                <label for="style-select">Style Genre:</label>
+                <select id="style-select" class="styled-select">
+                  <option value="Streetwear" selected>Streetwear</option>
+                  <option value="Y2K">Y2K Aesthetic</option>
+                  <option value="Minimalist">Minimalist / Quiet Luxury</option>
+                  <option value="Denim">Denim Core</option>
+                  <option value="Cottagecore">Cottagecore</option>
+                  <option value="Athleisure">Athleisure</option>
+                </select>
+              </div>
+
+              <div class="control-group">
+                <label for="horizon-range">Horizon: <span id="horizon-val">12</span> wks</label>
+                <input type="range" id="horizon-range" min="4" max="24" step="2" value="12" class="styled-slider">
+              </div>
+            </div>
+          </div>
+
+          <!-- Trajectory Banner -->
+          <div class="trajectory-banner" id="trajectory-banner">
+            <div class="traj-stat">
+              <span class="traj-label">Trajectory</span>
+              <span class="traj-badge badge-emerald" id="traj-classification">Rising (Hot Trend)</span>
+            </div>
+            <div class="traj-stat">
+              <span class="traj-label">Projected Growth</span>
+              <span class="traj-val" id="traj-growth">+18.5%</span>
+            </div>
+            <div class="traj-stat">
+              <span class="traj-label">Current Index</span>
+              <span class="traj-val" id="traj-current">68.4</span>
+            </div>
+            <div class="traj-stat">
+              <span class="traj-label">Peak Forecast</span>
+              <span class="traj-val" id="traj-projected">81.1</span>
+            </div>
+          </div>
+
+          <!-- Chart Container -->
+          <div class="chart-wrapper">
+            <canvas id="trendChart"></canvas>
+          </div>
+        </div>
+
+        <!-- Trend Leaderboard -->
+        <div class="section-card glass mt-4">
+          <h3 class="mb-3">Trend Momentum Leaderboard</h3>
+          <div class="table-responsive">
+            <table class="trend-table">
+              <thead>
+                <tr>
+                  <th>Style Name</th>
+                  <th>Current Score</th>
+                  <th>Projected Score</th>
+                  <th>Projected Growth</th>
+                  <th>Trajectory Status</th>
+                </tr>
+              </thead>
+              <tbody id="leaderboard-body">
+                <tr><td colspan="5" class="text-center">Loading trend data...</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- TAB 2: Visual Clusters -->
+      <section id="clusters-tab" class="tab-pane">
+        <div class="section-card glass">
+          <div class="toolbar-title mb-4">
+            <h2>Deep Visual Feature Clustering (K-Means)</h2>
+            <p>Clusters formed via cosine distance on 512-dimensional visual embeddings</p>
+          </div>
+          <div class="clusters-grid" id="clusters-grid">
+            <!-- Dynamically populated -->
+          </div>
+        </div>
+      </section>
+
+      <!-- TAB 3: Visual Similarity Search -->
+      <section id="similarity-tab" class="tab-pane">
+        <div class="section-card glass">
+          <div class="toolbar-title mb-3">
+            <h2>AI Visual Similarity & Cosine Matcher</h2>
+            <p>Upload a fashion item image or select a sample query to find Top-K visual matches</p>
+          </div>
+
+          <div class="similarity-layout">
+            <!-- Query Panel -->
+            <div class="query-panel">
+              <div class="upload-zone" id="upload-zone">
+                <input type="file" id="image-file-input" accept="image/*" hidden>
+                <div class="upload-content" id="upload-prompt">
+                  <svg class="upload-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                    <polyline points="17 8 12 3 7 8"/>
+                    <line x1="12" y1="3" x2="12" y2="15"/>
+                  </svg>
+                  <p><strong>Click to upload</strong> or drag & drop</p>
+                  <span>PNG, JPG, WEBP up to 10MB</span>
+                </div>
+                <div class="preview-content hidden" id="upload-preview-container">
+                  <img id="upload-preview-img" src="" alt="Query Preview">
+                  <button type="button" class="btn-clear" id="btn-clear-upload">Remove</button>
+                </div>
+              </div>
+
+              <!-- Preset Sample Quick Select -->
+              <div class="quick-samples">
+                <label>Or select test sample:</label>
+                <div class="sample-pills" id="sample-pills">
+                  <!-- Populated dynamically -->
+                </div>
+              </div>
+
+              <button class="btn-primary w-full mt-3" id="btn-run-match" disabled>
+                Find Similar Garments
+              </button>
+            </div>
+
+            <!-- Results Panel -->
+            <div class="results-panel">
+              <div class="results-header">
+                <h3>Top Visual Matches</h3>
+                <span class="match-count" id="match-status-label">Awaiting search query...</span>
+              </div>
+              <div class="matches-grid" id="matches-grid">
+                <div class="empty-state">
+                  <p>Upload an image or pick a test sample to calculate deep cosine similarity rankings.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TAB 4: Catalog Explorer -->
+      <section id="catalog-tab" class="tab-pane">
+        <div class="section-card glass">
+          <div class="card-toolbar mb-4">
+            <div class="toolbar-title">
+              <h2>Fashion Catalog Explorer</h2>
+              <p>Browse ingested garments, visual tags, and engagement metrics</p>
+            </div>
+            <div class="toolbar-controls">
+              <select id="catalog-category-filter" class="styled-select">
+                <option value="">All Categories</option>
+                <option value="shirt">Shirts & Tops</option>
+                <option value="trousers">Trousers & Pants</option>
+                <option value="jacket">Jackets & Outerwear</option>
+                <option value="dress">Dresses</option>
+                <option value="skirt">Skirts</option>
+              </select>
+              <select id="catalog-style-filter" class="styled-select">
+                <option value="">All Styles</option>
+                <option value="Streetwear">Streetwear</option>
+                <option value="Y2K">Y2K</option>
+                <option value="Minimalist">Minimalist</option>
+                <option value="Denim">Denim</option>
+                <option value="Cottagecore">Cottagecore</option>
+                <option value="Athleisure">Athleisure</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="catalog-grid" id="catalog-grid">
+            <!-- Populated dynamically -->
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="/web/app.js"></script>
+</body>
+</html>

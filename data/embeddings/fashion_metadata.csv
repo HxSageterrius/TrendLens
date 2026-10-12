@@ -1,0 +1,37 @@
+item_id,title,category,style,pattern,likes,comments,timestamp,file_path,tags
+FSH_0001,Oversized Cyber Hoodie,shirt,Streetwear,graphic,3879,272,2026-05-19,data/fashion_trends/images/FSH_0001_streetwear_shirt.jpg,#streetwear #shirt #fashiontrend #ootd #styleinspo
+FSH_0002,Cargo Techwear Pants,trousers,Streetwear,solid,3166,133,2025-04-24,data/fashion_trends/images/FSH_0002_streetwear_trousers.jpg,#streetwear #trousers #fashiontrend #ootd #styleinspo
+FSH_0003,Graffiti Puffer Jacket,jacket,Streetwear,graphic,4545,244,2025-08-13,data/fashion_trends/images/FSH_0003_streetwear_jacket.jpg,#streetwear #jacket #fashiontrend #ootd #styleinspo
+FSH_0004,Urban Utility Vest,jacket,Streetwear,solid,1793,101,2025-08-05,data/fashion_trends/images/FSH_0004_streetwear_jacket.jpg,#streetwear #jacket #fashiontrend #ootd #styleinspo
+FSH_0005,Retro Graphic Tee,shirt,Streetwear,graphic,2640,158,2025-06-15,data/fashion_trends/images/FSH_0005_streetwear_shirt.jpg,#streetwear #shirt #fashiontrend #ootd #styleinspo
+FSH_0006,Baggy Skate Chinos,trousers,Streetwear,solid,2379,166,2025-04-26,data/fashion_trends/images/FSH_0006_streetwear_trousers.jpg,#streetwear #trousers #fashiontrend #ootd #styleinspo
+FSH_0007,Silver Metallic Crop Top,shirt,Y2K,solid,5793,337,2025-12-20,data/fashion_trends/images/FSH_0007_y2k_shirt.jpg,#y2k #shirt #fashiontrend #ootd #styleinspo
+FSH_0008,Low-Rise Flare Jeans,trousers,Y2K,solid,4798,230,2025-11-11,data/fashion_trends/images/FSH_0008_y2k_trousers.jpg,#y2k #trousers #fashiontrend #ootd #styleinspo
+FSH_0009,Pink Velour Track Jacket,jacket,Y2K,striped,6528,506,2025-11-02,data/fashion_trends/images/FSH_0009_y2k_jacket.jpg,#y2k #jacket #fashiontrend #ootd #styleinspo
+FSH_0010,Glitter Mesh Bodycon Dress,dress,Y2K,dots,6013,460,2025-06-15,data/fashion_trends/images/FSH_0010_y2k_dress.jpg,#y2k #dress #fashiontrend #ootd #styleinspo
+FSH_0011,Butterfly Halter Top,shirt,Y2K,graphic,4221,176,2025-09-12,data/fashion_trends/images/FSH_0011_y2k_shirt.jpg,#y2k #shirt #fashiontrend #ootd #styleinspo
+FSH_0012,Pleated Denim Mini Skirt,skirt,Y2K,solid,4939,345,2025-02-05,data/fashion_trends/images/FSH_0012_y2k_skirt.jpg,#y2k #skirt #fashiontrend #ootd #styleinspo
+FSH_0013,Cashmere Crewneck Sweater,shirt,Minimalist,solid,3777,232,2025-07-07,data/fashion_trends/images/FSH_0013_minimalist_shirt.jpg,#minimalist #shirt #fashiontrend #ootd #styleinspo
+FSH_0014,Tailored Wide-Leg Trousers,trousers,Minimalist,solid,4793,324,2025-05-03,data/fashion_trends/images/FSH_0014_minimalist_trousers.jpg,#minimalist #trousers #fashiontrend #ootd #styleinspo
+FSH_0015,Structure Wool Trench Coat,jacket,Minimalist,solid,5471,226,2025-10-26,data/fashion_trends/images/FSH_0015_minimalist_jacket.jpg,#minimalist #jacket #fashiontrend #ootd #styleinspo
+FSH_0016,Silk Slip Maxi Dress,dress,Minimalist,solid,5743,333,2025-03-02,data/fashion_trends/images/FSH_0016_minimalist_dress.jpg,#minimalist #dress #fashiontrend #ootd #styleinspo
+FSH_0017,Oatmeal Linen Button-Up,shirt,Minimalist,solid,3463,176,2026-03-31,data/fashion_trends/images/FSH_0017_minimalist_shirt.jpg,#minimalist #shirt #fashiontrend #ootd #styleinspo
+FSH_0018,Straight Wool Slacks,trousers,Minimalist,solid,3241,168,2025-09-05,data/fashion_trends/images/FSH_0018_minimalist_trousers.jpg,#minimalist #trousers #fashiontrend #ootd #styleinspo
+FSH_0019,Raw Selvedge Denim Jacket,jacket,Denim,solid,3999,242,2025-05-05,data/fashion_trends/images/FSH_0019_denim_jacket.jpg,#denim #jacket #fashiontrend #ootd #styleinspo
+FSH_0020,Vintage High-Waist Mom Jeans,trousers,Denim,solid,3710,210,2026-03-13,data/fashion_trends/images/FSH_0020_denim_trousers.jpg,#denim #trousers #fashiontrend #ootd #styleinspo
+FSH_0021,Distressed Trucker Jacket,jacket,Denim,striped,3571,238,2026-04-19,data/fashion_trends/images/FSH_0021_denim_jacket.jpg,#denim #jacket #fashiontrend #ootd #styleinspo
+FSH_0022,Denim Western Workshirt,shirt,Denim,solid,2477,108,2025-10-13,data/fashion_trends/images/FSH_0022_denim_shirt.jpg,#denim #shirt #fashiontrend #ootd #styleinspo
+FSH_0023,Carpenter Denim Jeans,trousers,Denim,solid,3751,191,2025-10-05,data/fashion_trends/images/FSH_0023_denim_trousers.jpg,#denim #trousers #fashiontrend #ootd #styleinspo
+FSH_0024,Tiered Chambray Denim Dress,dress,Denim,solid,3650,234,2025-11-02,data/fashion_trends/images/FSH_0024_denim_dress.jpg,#denim #dress #fashiontrend #ootd #styleinspo
+FSH_0025,Floral Prairie Midi Dress,dress,Cottagecore,dots,4043,230,2025-11-12,data/fashion_trends/images/FSH_0025_cottagecore_dress.jpg,#cottagecore #dress #fashiontrend #ootd #styleinspo
+FSH_0026,Puff-Sleeve Linen Blouse,shirt,Cottagecore,solid,4456,230,2025-03-08,data/fashion_trends/images/FSH_0026_cottagecore_shirt.jpg,#cottagecore #shirt #fashiontrend #ootd #styleinspo
+FSH_0027,Knit Cable Cardigan,jacket,Cottagecore,striped,4166,229,2025-02-26,data/fashion_trends/images/FSH_0027_cottagecore_jacket.jpg,#cottagecore #jacket #fashiontrend #ootd #styleinspo
+FSH_0028,Embroidered A-Line Skirt,skirt,Cottagecore,dots,3863,236,2026-04-16,data/fashion_trends/images/FSH_0028_cottagecore_skirt.jpg,#cottagecore #skirt #fashiontrend #ootd #styleinspo
+FSH_0029,Corset Lace-Up Bodice Top,shirt,Cottagecore,solid,5413,279,2025-08-21,data/fashion_trends/images/FSH_0029_cottagecore_shirt.jpg,#cottagecore #shirt #fashiontrend #ootd #styleinspo
+FSH_0030,Tiered Ruffle Smock Dress,dress,Cottagecore,dots,3854,223,2025-12-10,data/fashion_trends/images/FSH_0030_cottagecore_dress.jpg,#cottagecore #dress #fashiontrend #ootd #styleinspo
+FSH_0031,Seamless Compression Top,shirt,Athleisure,solid,4088,224,2025-07-11,data/fashion_trends/images/FSH_0031_athleisure_shirt.jpg,#athleisure #shirt #fashiontrend #ootd #styleinspo
+FSH_0032,High-Waist Sculpt Leggings,trousers,Athleisure,solid,4306,314,2025-08-01,data/fashion_trends/images/FSH_0032_athleisure_trousers.jpg,#athleisure #trousers #fashiontrend #ootd #styleinspo
+FSH_0033,Windbreaker Track Jacket,jacket,Athleisure,striped,3398,219,2025-09-24,data/fashion_trends/images/FSH_0033_athleisure_jacket.jpg,#athleisure #jacket #fashiontrend #ootd #styleinspo
+FSH_0034,Cropped Zip Running Hoodie,jacket,Athleisure,solid,2950,169,2026-02-24,data/fashion_trends/images/FSH_0034_athleisure_jacket.jpg,#athleisure #jacket #fashiontrend #ootd #styleinspo
+FSH_0035,Ribbed Bike Shorts,trousers,Athleisure,solid,2613,192,2026-03-15,data/fashion_trends/images/FSH_0035_athleisure_trousers.jpg,#athleisure #trousers #fashiontrend #ootd #styleinspo
+FSH_0036,Athletic Tennis Dress,dress,Athleisure,solid,4149,228,2025-04-25,data/fashion_trends/images/FSH_0036_athleisure_dress.jpg,#athleisure #dress #fashiontrend #ootd #styleinspo

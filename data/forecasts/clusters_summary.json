@@ -1,0 +1,580 @@
+[
+  {
+    "cluster_id": 0,
+    "cluster_name": "Cluster #1",
+    "item_count": 9,
+    "exemplar_item": {
+      "item_id": "FSH_0023",
+      "title": "Carpenter Denim Jeans",
+      "category": "trousers",
+      "style": "Denim",
+      "pattern": "solid",
+      "likes": 3751,
+      "comments": 191,
+      "timestamp": "2025-10-05",
+      "file_path": "data/fashion_trends/images/FSH_0023_denim_trousers.jpg",
+      "tags": "#denim #trousers #fashiontrend #ootd #styleinspo",
+      "cluster_id": 0
+    },
+    "dominant_styles": {
+      "Streetwear": 2,
+      "Minimalist": 2
+    },
+    "dominant_categories": {
+      "trousers": 9
+    },
+    "items": [
+      {
+        "item_id": "FSH_0002",
+        "title": "Cargo Techwear Pants",
+        "category": "trousers",
+        "style": "Streetwear",
+        "pattern": "solid",
+        "likes": 3166,
+        "comments": 133,
+        "timestamp": "2025-04-24",
+        "file_path": "data/fashion_trends/images/FSH_0002_streetwear_trousers.jpg",
+        "tags": "#streetwear #trousers #fashiontrend #ootd #styleinspo",
+        "cluster_id": 0
+      },
+      {
+        "item_id": "FSH_0006",
+        "title": "Baggy Skate Chinos",
+        "category": "trousers",
+        "style": "Streetwear",
+        "pattern": "solid",
+        "likes": 2379,
+        "comments": 166,
+        "timestamp": "2025-04-26",
+        "file_path": "data/fashion_trends/images/FSH_0006_streetwear_trousers.jpg",
+        "tags": "#streetwear #trousers #fashiontrend #ootd #styleinspo",
+        "cluster_id": 0
+      },
+      {
+        "item_id": "FSH_0008",
+        "title": "Low-Rise Flare Jeans",
+        "category": "trousers",
+        "style": "Y2K",
+        "pattern": "solid",
+        "likes": 4798,
+        "comments": 230,
+        "timestamp": "2025-11-11",
+        "file_path": "data/fashion_trends/images/FSH_0008_y2k_trousers.jpg",
+        "tags": "#y2k #trousers #fashiontrend #ootd #styleinspo",
+        "cluster_id": 0
+      },
+      {
+        "item_id": "FSH_0014",
+        "title": "Tailored Wide-Leg Trousers",
+        "category": "trousers",
+        "style": "Minimalist",
+        "pattern": "solid",
+        "likes": 4793,
+        "comments": 324,
+        "timestamp": "2025-05-03",
+        "file_path": "data/fashion_trends/images/FSH_0014_minimalist_trousers.jpg",
+        "tags": "#minimalist #trousers #fashiontrend #ootd #styleinspo",
+        "cluster_id": 0
+      },
+      {
+        "item_id": "FSH_0018",
+        "title": "Straight Wool Slacks",
+        "category": "trousers",
+        "style": "Minimalist",
+        "pattern": "solid",
+        "likes": 3241,
+        "comments": 168,
+        "timestamp": "2025-09-05",
+        "file_path": "data/fashion_trends/images/FSH_0018_minimalist_trousers.jpg",
+        "tags": "#minimalist #trousers #fashiontrend #ootd #styleinspo",
+        "cluster_id": 0
+      },
+      {
+        "item_id": "FSH_0020",
+        "title": "Vintage High-Waist Mom Jeans",
+        "category": "trousers",
+        "style": "Denim",
+        "pattern": "solid",
+        "likes": 3710,
+        "comments": 210,
+        "timestamp": "2026-03-13",
+        "file_path": "data/fashion_trends/images/FSH_0020_denim_trousers.jpg",
+        "tags": "#denim #trousers #fashiontrend #ootd #styleinspo",
+        "cluster_id": 0
+      },
+      {
+        "item_id": "FSH_0023",
+        "title": "Carpenter Denim Jeans",
+        "category": "trousers",
+        "style": "Denim",
+        "pattern": "solid",
+        "likes": 3751,
+        "comments": 191,
+        "timestamp": "2025-10-05",
+        "file_path": "data/fashion_trends/images/FSH_0023_denim_trousers.jpg",
+        "tags": "#denim #trousers #fashiontrend #ootd #styleinspo",
+        "cluster_id": 0
+      },
+      {
+        "item_id": "FSH_0032",
+        "title": "High-Waist Sculpt Leggings",
+        "category": "trousers",
+        "style": "Athleisure",
+        "pattern": "solid",
+        "likes": 4306,
+        "comments": 314,
+        "timestamp": "2025-08-01",
+        "file_path": "data/fashion_trends/images/FSH_0032_athleisure_trousers.jpg",
+        "tags": "#athleisure #trousers #fashiontrend #ootd #styleinspo",
+        "cluster_id": 0
+      },
+      {
+        "item_id": "FSH_0035",
+        "title": "Ribbed Bike Shorts",
+        "category": "trousers",
+        "style": "Athleisure",
+        "pattern": "solid",
+        "likes": 2613,
+        "comments": 192,
+        "timestamp": "2026-03-15",
+        "file_path": "data/fashion_trends/images/FSH_0035_athleisure_trousers.jpg",
+        "tags": "#athleisure #trousers #fashiontrend #ootd #styleinspo",
+        "cluster_id": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 1,
+    "cluster_name": "Cluster #2",
+    "item_count": 10,
+    "exemplar_item": {
+      "item_id": "FSH_0007",
+      "title": "Silver Metallic Crop Top",
+      "category": "shirt",
+      "style": "Y2K",
+      "pattern": "solid",
+      "likes": 5793,
+      "comments": 337,
+      "timestamp": "2025-12-20",
+      "file_path": "data/fashion_trends/images/FSH_0007_y2k_shirt.jpg",
+      "tags": "#y2k #shirt #fashiontrend #ootd #styleinspo",
+      "cluster_id": 1
+    },
+    "dominant_styles": {
+      "Y2K": 3,
+      "Cottagecore": 3
+    },
+    "dominant_categories": {
+      "shirt": 8,
+      "skirt": 2
+    },
+    "items": [
+      {
+        "item_id": "FSH_0005",
+        "title": "Retro Graphic Tee",
+        "category": "shirt",
+        "style": "Streetwear",
+        "pattern": "graphic",
+        "likes": 2640,
+        "comments": 158,
+        "timestamp": "2025-06-15",
+        "file_path": "data/fashion_trends/images/FSH_0005_streetwear_shirt.jpg",
+        "tags": "#streetwear #shirt #fashiontrend #ootd #styleinspo",
+        "cluster_id": 1
+      },
+      {
+        "item_id": "FSH_0007",
+        "title": "Silver Metallic Crop Top",
+        "category": "shirt",
+        "style": "Y2K",
+        "pattern": "solid",
+        "likes": 5793,
+        "comments": 337,
+        "timestamp": "2025-12-20",
+        "file_path": "data/fashion_trends/images/FSH_0007_y2k_shirt.jpg",
+        "tags": "#y2k #shirt #fashiontrend #ootd #styleinspo",
+        "cluster_id": 1
+      },
+      {
+        "item_id": "FSH_0011",
+        "title": "Butterfly Halter Top",
+        "category": "shirt",
+        "style": "Y2K",
+        "pattern": "graphic",
+        "likes": 4221,
+        "comments": 176,
+        "timestamp": "2025-09-12",
+        "file_path": "data/fashion_trends/images/FSH_0011_y2k_shirt.jpg",
+        "tags": "#y2k #shirt #fashiontrend #ootd #styleinspo",
+        "cluster_id": 1
+      },
+      {
+        "item_id": "FSH_0012",
+        "title": "Pleated Denim Mini Skirt",
+        "category": "skirt",
+        "style": "Y2K",
+        "pattern": "solid",
+        "likes": 4939,
+        "comments": 345,
+        "timestamp": "2025-02-05",
+        "file_path": "data/fashion_trends/images/FSH_0012_y2k_skirt.jpg",
+        "tags": "#y2k #skirt #fashiontrend #ootd #styleinspo",
+        "cluster_id": 1
+      },
+      {
+        "item_id": "FSH_0013",
+        "title": "Cashmere Crewneck Sweater",
+        "category": "shirt",
+        "style": "Minimalist",
+        "pattern": "solid",
+        "likes": 3777,
+        "comments": 232,
+        "timestamp": "2025-07-07",
+        "file_path": "data/fashion_trends/images/FSH_0013_minimalist_shirt.jpg",
+        "tags": "#minimalist #shirt #fashiontrend #ootd #styleinspo",
+        "cluster_id": 1
+      },
+      {
+        "item_id": "FSH_0017",
+        "title": "Oatmeal Linen Button-Up",
+        "category": "shirt",
+        "style": "Minimalist",
+        "pattern": "solid",
+        "likes": 3463,
+        "comments": 176,
+        "timestamp": "2026-03-31",
+        "file_path": "data/fashion_trends/images/FSH_0017_minimalist_shirt.jpg",
+        "tags": "#minimalist #shirt #fashiontrend #ootd #styleinspo",
+        "cluster_id": 1
+      },
+      {
+        "item_id": "FSH_0022",
+        "title": "Denim Western Workshirt",
+        "category": "shirt",
+        "style": "Denim",
+        "pattern": "solid",
+        "likes": 2477,
+        "comments": 108,
+        "timestamp": "2025-10-13",
+        "file_path": "data/fashion_trends/images/FSH_0022_denim_shirt.jpg",
+        "tags": "#denim #shirt #fashiontrend #ootd #styleinspo",
+        "cluster_id": 1
+      },
+      {
+        "item_id": "FSH_0026",
+        "title": "Puff-Sleeve Linen Blouse",
+        "category": "shirt",
+        "style": "Cottagecore",
+        "pattern": "solid",
+        "likes": 4456,
+        "comments": 230,
+        "timestamp": "2025-03-08",
+        "file_path": "data/fashion_trends/images/FSH_0026_cottagecore_shirt.jpg",
+        "tags": "#cottagecore #shirt #fashiontrend #ootd #styleinspo",
+        "cluster_id": 1
+      },
+      {
+        "item_id": "FSH_0028",
+        "title": "Embroidered A-Line Skirt",
+        "category": "skirt",
+        "style": "Cottagecore",
+        "pattern": "dots",
+        "likes": 3863,
+        "comments": 236,
+        "timestamp": "2026-04-16",
+        "file_path": "data/fashion_trends/images/FSH_0028_cottagecore_skirt.jpg",
+        "tags": "#cottagecore #skirt #fashiontrend #ootd #styleinspo",
+        "cluster_id": 1
+      },
+      {
+        "item_id": "FSH_0029",
+        "title": "Corset Lace-Up Bodice Top",
+        "category": "shirt",
+        "style": "Cottagecore",
+        "pattern": "solid",
+        "likes": 5413,
+        "comments": 279,
+        "timestamp": "2025-08-21",
+        "file_path": "data/fashion_trends/images/FSH_0029_cottagecore_shirt.jpg",
+        "tags": "#cottagecore #shirt #fashiontrend #ootd #styleinspo",
+        "cluster_id": 1
+      }
+    ]
+  },
+  {
+    "cluster_id": 2,
+    "cluster_name": "Cluster #3",
+    "item_count": 11,
+    "exemplar_item": {
+      "item_id": "FSH_0019",
+      "title": "Raw Selvedge Denim Jacket",
+      "category": "jacket",
+      "style": "Denim",
+      "pattern": "solid",
+      "likes": 3999,
+      "comments": 242,
+      "timestamp": "2025-05-05",
+      "file_path": "data/fashion_trends/images/FSH_0019_denim_jacket.jpg",
+      "tags": "#denim #jacket #fashiontrend #ootd #styleinspo",
+      "cluster_id": 2
+    },
+    "dominant_styles": {
+      "Streetwear": 3,
+      "Athleisure": 3
+    },
+    "dominant_categories": {
+      "jacket": 9,
+      "shirt": 2
+    },
+    "items": [
+      {
+        "item_id": "FSH_0001",
+        "title": "Oversized Cyber Hoodie",
+        "category": "shirt",
+        "style": "Streetwear",
+        "pattern": "graphic",
+        "likes": 3879,
+        "comments": 272,
+        "timestamp": "2026-05-19",
+        "file_path": "data/fashion_trends/images/FSH_0001_streetwear_shirt.jpg",
+        "tags": "#streetwear #shirt #fashiontrend #ootd #styleinspo",
+        "cluster_id": 2
+      },
+      {
+        "item_id": "FSH_0003",
+        "title": "Graffiti Puffer Jacket",
+        "category": "jacket",
+        "style": "Streetwear",
+        "pattern": "graphic",
+        "likes": 4545,
+        "comments": 244,
+        "timestamp": "2025-08-13",
+        "file_path": "data/fashion_trends/images/FSH_0003_streetwear_jacket.jpg",
+        "tags": "#streetwear #jacket #fashiontrend #ootd #styleinspo",
+        "cluster_id": 2
+      },
+      {
+        "item_id": "FSH_0004",
+        "title": "Urban Utility Vest",
+        "category": "jacket",
+        "style": "Streetwear",
+        "pattern": "solid",
+        "likes": 1793,
+        "comments": 101,
+        "timestamp": "2025-08-05",
+        "file_path": "data/fashion_trends/images/FSH_0004_streetwear_jacket.jpg",
+        "tags": "#streetwear #jacket #fashiontrend #ootd #styleinspo",
+        "cluster_id": 2
+      },
+      {
+        "item_id": "FSH_0009",
+        "title": "Pink Velour Track Jacket",
+        "category": "jacket",
+        "style": "Y2K",
+        "pattern": "striped",
+        "likes": 6528,
+        "comments": 506,
+        "timestamp": "2025-11-02",
+        "file_path": "data/fashion_trends/images/FSH_0009_y2k_jacket.jpg",
+        "tags": "#y2k #jacket #fashiontrend #ootd #styleinspo",
+        "cluster_id": 2
+      },
+      {
+        "item_id": "FSH_0015",
+        "title": "Structure Wool Trench Coat",
+        "category": "jacket",
+        "style": "Minimalist",
+        "pattern": "solid",
+        "likes": 5471,
+        "comments": 226,
+        "timestamp": "2025-10-26",
+        "file_path": "data/fashion_trends/images/FSH_0015_minimalist_jacket.jpg",
+        "tags": "#minimalist #jacket #fashiontrend #ootd #styleinspo",
+        "cluster_id": 2
+      },
+      {
+        "item_id": "FSH_0019",
+        "title": "Raw Selvedge Denim Jacket",
+        "category": "jacket",
+        "style": "Denim",
+        "pattern": "solid",
+        "likes": 3999,
+        "comments": 242,
+        "timestamp": "2025-05-05",
+        "file_path": "data/fashion_trends/images/FSH_0019_denim_jacket.jpg",
+        "tags": "#denim #jacket #fashiontrend #ootd #styleinspo",
+        "cluster_id": 2
+      },
+      {
+        "item_id": "FSH_0021",
+        "title": "Distressed Trucker Jacket",
+        "category": "jacket",
+        "style": "Denim",
+        "pattern": "striped",
+        "likes": 3571,
+        "comments": 238,
+        "timestamp": "2026-04-19",
+        "file_path": "data/fashion_trends/images/FSH_0021_denim_jacket.jpg",
+        "tags": "#denim #jacket #fashiontrend #ootd #styleinspo",
+        "cluster_id": 2
+      },
+      {
+        "item_id": "FSH_0027",
+        "title": "Knit Cable Cardigan",
+        "category": "jacket",
+        "style": "Cottagecore",
+        "pattern": "striped",
+        "likes": 4166,
+        "comments": 229,
+        "timestamp": "2025-02-26",
+        "file_path": "data/fashion_trends/images/FSH_0027_cottagecore_jacket.jpg",
+        "tags": "#cottagecore #jacket #fashiontrend #ootd #styleinspo",
+        "cluster_id": 2
+      },
+      {
+        "item_id": "FSH_0031",
+        "title": "Seamless Compression Top",
+        "category": "shirt",
+        "style": "Athleisure",
+        "pattern": "solid",
+        "likes": 4088,
+        "comments": 224,
+        "timestamp": "2025-07-11",
+        "file_path": "data/fashion_trends/images/FSH_0031_athleisure_shirt.jpg",
+        "tags": "#athleisure #shirt #fashiontrend #ootd #styleinspo",
+        "cluster_id": 2
+      },
+      {
+        "item_id": "FSH_0033",
+        "title": "Windbreaker Track Jacket",
+        "category": "jacket",
+        "style": "Athleisure",
+        "pattern": "striped",
+        "likes": 3398,
+        "comments": 219,
+        "timestamp": "2025-09-24",
+        "file_path": "data/fashion_trends/images/FSH_0033_athleisure_jacket.jpg",
+        "tags": "#athleisure #jacket #fashiontrend #ootd #styleinspo",
+        "cluster_id": 2
+      },
+      {
+        "item_id": "FSH_0034",
+        "title": "Cropped Zip Running Hoodie",
+        "category": "jacket",
+        "style": "Athleisure",
+        "pattern": "solid",
+        "likes": 2950,
+        "comments": 169,
+        "timestamp": "2026-02-24",
+        "file_path": "data/fashion_trends/images/FSH_0034_athleisure_jacket.jpg",
+        "tags": "#athleisure #jacket #fashiontrend #ootd #styleinspo",
+        "cluster_id": 2
+      }
+    ]
+  },
+  {
+    "cluster_id": 3,
+    "cluster_name": "Cluster #4",
+    "item_count": 6,
+    "exemplar_item": {
+      "item_id": "FSH_0024",
+      "title": "Tiered Chambray Denim Dress",
+      "category": "dress",
+      "style": "Denim",
+      "pattern": "solid",
+      "likes": 3650,
+      "comments": 234,
+      "timestamp": "2025-11-02",
+      "file_path": "data/fashion_trends/images/FSH_0024_denim_dress.jpg",
+      "tags": "#denim #dress #fashiontrend #ootd #styleinspo",
+      "cluster_id": 3
+    },
+    "dominant_styles": {
+      "Cottagecore": 2,
+      "Y2K": 1
+    },
+    "dominant_categories": {
+      "dress": 6
+    },
+    "items": [
+      {
+        "item_id": "FSH_0010",
+        "title": "Glitter Mesh Bodycon Dress",
+        "category": "dress",
+        "style": "Y2K",
+        "pattern": "dots",
+        "likes": 6013,
+        "comments": 460,
+        "timestamp": "2025-06-15",
+        "file_path": "data/fashion_trends/images/FSH_0010_y2k_dress.jpg",
+        "tags": "#y2k #dress #fashiontrend #ootd #styleinspo",
+        "cluster_id": 3
+      },
+      {
+        "item_id": "FSH_0016",
+        "title": "Silk Slip Maxi Dress",
+        "category": "dress",
+        "style": "Minimalist",
+        "pattern": "solid",
+        "likes": 5743,
+        "comments": 333,
+        "timestamp": "2025-03-02",
+        "file_path": "data/fashion_trends/images/FSH_0016_minimalist_dress.jpg",
+        "tags": "#minimalist #dress #fashiontrend #ootd #styleinspo",
+        "cluster_id": 3
+      },
+      {
+        "item_id": "FSH_0024",
+        "title": "Tiered Chambray Denim Dress",
+        "category": "dress",
+        "style": "Denim",
+        "pattern": "solid",
+        "likes": 3650,
+        "comments": 234,
+        "timestamp": "2025-11-02",
+        "file_path": "data/fashion_trends/images/FSH_0024_denim_dress.jpg",
+        "tags": "#denim #dress #fashiontrend #ootd #styleinspo",
+        "cluster_id": 3
+      },
+      {
+        "item_id": "FSH_0025",
+        "title": "Floral Prairie Midi Dress",
+        "category": "dress",
+        "style": "Cottagecore",
+        "pattern": "dots",
+        "likes": 4043,
+        "comments": 230,
+        "timestamp": "2025-11-12",
+        "file_path": "data/fashion_trends/images/FSH_0025_cottagecore_dress.jpg",
+        "tags": "#cottagecore #dress #fashiontrend #ootd #styleinspo",
+        "cluster_id": 3
+      },
+      {
+        "item_id": "FSH_0030",
+        "title": "Tiered Ruffle Smock Dress",
+        "category": "dress",
+        "style": "Cottagecore",
+        "pattern": "dots",
+        "likes": 3854,
+        "comments": 223,
+        "timestamp": "2025-12-10",
+        "file_path": "data/fashion_trends/images/FSH_0030_cottagecore_dress.jpg",
+        "tags": "#cottagecore #dress #fashiontrend #ootd #styleinspo",
+        "cluster_id": 3
+      },
+      {
+        "item_id": "FSH_0036",
+        "title": "Athletic Tennis Dress",
+        "category": "dress",
+        "style": "Athleisure",
+        "pattern": "solid",
+        "likes": 4149,
+        "comments": 228,
+        "timestamp": "2025-04-25",
+        "file_path": "data/fashion_trends/images/FSH_0036_athleisure_dress.jpg",
+        "tags": "#athleisure #dress #fashiontrend #ootd #styleinspo",
+        "cluster_id": 3
+      }
+    ]
+  }
+]

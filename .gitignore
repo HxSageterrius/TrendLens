@@ -54,7 +54,13 @@ data/forecasts/*
 !data/processed/.gitkeep
 !data/embeddings/.gitkeep
 !data/forecasts/.gitkeep
+!data/forecasts/*.json
+!data/embeddings/*.csv
 !data/samples/
+!data/fashion_trends/
+
+# External cloned repositories
+reference_repos/
 
 # Model Checkpoints and Weights
 models/*.pt

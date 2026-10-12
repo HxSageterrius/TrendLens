@@ -78,32 +78,34 @@ trendlens/
 
 | Module | Name | Focus / Deliverable | Status |
 | :---: | :--- | :--- | :---: |
-| **0** | **Environment & Foundation** | Git setup, virtual env, folder layout, dependency verification | 🟡 *In Progress* |
-| **1** | **Dataset & Preprocessing** | DeepFashion2 sample ingestion, validation, image transformations | ⚪ *Pending* |
-| **2** | **Visual Feature Extraction** | CNN (ResNet) / CLIP embedding pipeline & vector export | ⚪ *Pending* |
-| **3** | **Visual Clustering** | K-Means & DBSCAN clustering, cluster evaluation metrics (Silhouette) | ⚪ *Pending* |
-| **4** | **Trend Identification & Forecasting** | Temporal aggregation, cluster popularity over time, Prophet forecasting | ⚪ *Pending* |
-| **5** | **Similarity Matching Engine** | Query image vector extraction & Top-K cosine similarity matching | ⚪ *Pending* |
-| **6** | **FastAPI Backend & PostgreSQL** | REST API endpoints, image upload, DB models for trends | ⚪ *Pending* |
-| **7** | **Dashboard & WordPress Integration** | Frontend visualizations and WordPress report generation | ⚪ *Pending* |
-| **8** | **Automobile POC (Secondary)** | Applying the validated pipeline to Stanford Cars / CompCars | ⚪ *Pending* |
+| **0** | **Environment & Foundation** | Git setup, virtual env, folder layout, dependency verification | 🟢 *Completed* |
+| **1** | **Dataset & Preprocessing** | DeepFashion2 & TrendVerse-aligned structured fashion ingestion & sample builder | 🟢 *Completed* |
+| **2** | **Visual Feature Extraction** | ResNet-18 / CNN feature extractor & L2-normalized 512-dim embedding export | 🟢 *Completed* |
+| **3** | **Visual Clustering** | K-Means & DBSCAN clustering, silhouette evaluation, centroid exemplars | 🟢 *Completed* |
+| **4** | **Trend Identification & Forecasting** | Time-series engagement trajectory, Prophet & seasonal statistical forecasting | 🟢 *Completed* |
+| **5** | **Similarity Matching Engine** | Cosine similarity ranking, image-to-item & item-to-item visual recommendation | 🟢 *Completed* |
+| **6** | **FastAPI Backend & REST API** | REST API endpoints for trends, forecasts, clusters, and image upload search | 🟢 *Completed* |
+| **7** | **Interactive Web Dashboard** | Modern glassmorphic web dashboard (Chart.js, cluster explorer, visual matcher) | 🟢 *Completed* |
+| **8** | **Automobile POC (Secondary)** | Applying validated pipeline to Stanford Cars / CompCars | ⚪ *Pending* |
 
 ---
 
-## ⚙️ Initial Setup Guide
+## 🚀 Running the Project
 
-### 1. Create and Activate Virtual Environment
+### 1. Build Fashion Dataset & Run Core AI Pipeline
 ```powershell
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
+.\.venv\Scripts\python.exe src/preprocessing/trendverse_data_builder.py
+.\.venv\Scripts\python.exe src/pipeline_runner.py
 ```
 
-### 2. Install Project Dependencies
+### 2. Run Test Suite (100% Pass)
 ```powershell
-pip install -r requirements.txt
+.\.venv\Scripts\pytest.exe tests/ -v
 ```
 
-### 3. Run Automated Tests
+### 3. Start the Web Dashboard & API Server
 ```powershell
-pytest
+.\.venv\Scripts\python.exe -m uvicorn src.api.main:app --host 127.0.0.1 --port 8000
 ```
+Open **[http://127.0.0.1:8000](http://127.0.0.1:8000)** in your browser to access the live dashboard!
+
