@@ -1,0 +1,46 @@
+item_id,title,category,style,make,model,model_year,file_path,tags
+AUTO_0001,Audi S4 Sedan 2012,sedan,sedan,Audi,S4 Sedan,2012,data\automotive\smoke_test\images\AUTO_0001_audi_s4_sedan_2012.jpg,#audi #sedan #cars #automotive #stanfordcars
+AUTO_0002,BMW 3 Series Sedan 2012,sedan,sedan,BMW,3 Series Sedan,2012,data\automotive\smoke_test\images\AUTO_0002_bmw_3series_sedan_2012.jpg,#bmw #sedan #cars #automotive #stanfordcars
+AUTO_0003,Toyota Camry Sedan 2012,sedan,sedan,Toyota,Camry Sedan,2012,data\automotive\smoke_test\images\AUTO_0003_toyota_camry_sedan_2012.jpg,#toyota #sedan #cars #automotive #stanfordcars
+AUTO_0004,Honda Accord Sedan 2012,sedan,sedan,Honda,Accord Sedan,2012,data\automotive\smoke_test\images\AUTO_0004_honda_accord_sedan_2012.jpg,#honda #sedan #cars #automotive #stanfordcars
+AUTO_0005,Mercedes-Benz C-Class Sedan 2012,sedan,sedan,Mercedes-Benz,C-Class Sedan,2012,data\automotive\smoke_test\images\AUTO_0005_mercedes_c_sedan_2012.jpg,#mercedes-benz #sedan #cars #automotive #stanfordcars
+AUTO_0006,Hyundai Sonata Sedan 2012,sedan,sedan,Hyundai,Sonata Sedan,2012,data\automotive\smoke_test\images\AUTO_0006_hyundai_sonata_sedan_2012.jpg,#hyundai #sedan #cars #automotive #stanfordcars
+AUTO_0007,Toyota Corolla Sedan 2012,sedan,sedan,Toyota,Corolla Sedan,2012,data\automotive\smoke_test\images\AUTO_0007_toyota_corolla_sedan_2012.jpg,#toyota #sedan #cars #automotive #stanfordcars
+AUTO_0008,Rolls-Royce Phantom Sedan 2012,sedan,sedan,Rolls-Royce,Phantom Sedan,2012,data\automotive\smoke_test\images\AUTO_0008_rollsroyce_phantom_sedan_2012.jpg,#rolls-royce #sedan #cars #automotive #stanfordcars
+AUTO_0009,Chevrolet TrailBlazer SS 2009,other,other,Chevrolet,TrailBlazer SS,2009,data\automotive\smoke_test\images\AUTO_0009_chevy_trailblazer_ss_2009.jpg,#chevrolet #other #cars #automotive #stanfordcars
+AUTO_0010,Jeep Compass SUV 2012,suv,suv,Jeep,Compass SUV,2012,data\automotive\smoke_test\images\AUTO_0010_jeep_compass_suv_2012.jpg,#jeep #suv #cars #automotive #stanfordcars
+AUTO_0011,Land Rover Range Rover SUV 2012,suv,suv,Land,Rover Range Rover SUV,2012,data\automotive\smoke_test\images\AUTO_0011_landrover_rangerover_suv_2012.jpg,#land #suv #cars #automotive #stanfordcars
+AUTO_0012,Toyota 4Runner SUV 2012,suv,suv,Toyota,4Runner SUV,2012,data\automotive\smoke_test\images\AUTO_0012_toyota_4runner_suv_2012.jpg,#toyota #suv #cars #automotive #stanfordcars
+AUTO_0013,BMW X3 SUV 2012,suv,suv,BMW,X3 SUV,2012,data\automotive\smoke_test\images\AUTO_0013_bmw_x3_suv_2012.jpg,#bmw #suv #cars #automotive #stanfordcars
+AUTO_0014,Hyundai Tucson SUV 2012,suv,suv,Hyundai,Tucson SUV,2012,data\automotive\smoke_test\images\AUTO_0014_hyundai_tucson_suv_2012.jpg,#hyundai #suv #cars #automotive #stanfordcars
+AUTO_0015,Ford Edge SUV 2012,suv,suv,Ford,Edge SUV,2012,data\automotive\smoke_test\images\AUTO_0015_ford_edge_suv_2012.jpg,#ford #suv #cars #automotive #stanfordcars
+AUTO_0016,Jeep Grand Cherokee SUV 2012,suv,suv,Jeep,Grand Cherokee SUV,2012,data\automotive\smoke_test\images\AUTO_0016_jeep_grandcherokee_suv_2012.jpg,#jeep #suv #cars #automotive #stanfordcars
+AUTO_0017,Audi A5 Coupe 2012,coupe,coupe,Audi,A5 Coupe,2012,data\automotive\smoke_test\images\AUTO_0017_audi_a5_coupe_2012.jpg,#audi #coupe #cars #automotive #stanfordcars
+AUTO_0018,BMW M3 Coupe 2012,coupe,coupe,BMW,M3 Coupe,2012,data\automotive\smoke_test\images\AUTO_0018_bmw_m3_coupe_2012.jpg,#bmw #coupe #cars #automotive #stanfordcars
+AUTO_0019,Audi TT RS Coupe 2012,coupe,coupe,Audi,TT RS Coupe,2012,data\automotive\smoke_test\images\AUTO_0019_audi_ttrs_coupe_2012.jpg,#audi #coupe #cars #automotive #stanfordcars
+AUTO_0020,Honda Accord Coupe 2012,coupe,coupe,Honda,Accord Coupe,2012,data\automotive\smoke_test\images\AUTO_0020_honda_accord_coupe_2012.jpg,#honda #coupe #cars #automotive #stanfordcars
+AUTO_0021,Dodge Challenger SRT8 2011,other,other,Dodge,Challenger SRT8,2011,data\automotive\smoke_test\images\AUTO_0021_dodge_challenger_srt8_2011.jpg,#dodge #other #cars #automotive #stanfordcars
+AUTO_0022,Bentley Continental GT Coupe 2012,coupe,coupe,Bentley,Continental GT Coupe,2012,data\automotive\smoke_test\images\AUTO_0022_bentley_cont_gt_coupe_2012.jpg,#bentley #coupe #cars #automotive #stanfordcars
+AUTO_0023,Lamborghini Aventador Coupe 2012,coupe,coupe,Lamborghini,Aventador Coupe,2012,data\automotive\smoke_test\images\AUTO_0023_lamborghini_aventador_2012.jpg,#lamborghini #coupe #cars #automotive #stanfordcars
+AUTO_0024,Volkswagen Golf Hatchback 2012,coupe,coupe,Volkswagen,Golf Hatchback,2012,data\automotive\smoke_test\images\AUTO_0024_vw_golf_hatchback_2012.jpg,#volkswagen #coupe #cars #automotive #stanfordcars
+AUTO_0025,Ford F-150 Regular Cab 2012,truck,truck,Ford,F-150 Regular Cab,2012,data\automotive\smoke_test\images\AUTO_0025_ford_f150_regularcab_2012.jpg,#ford #truck #cars #automotive #stanfordcars
+AUTO_0026,Chevrolet Silverado 1500 Hybrid Crew Cab 2012,truck,truck,Chevrolet,Silverado 1500 Hybrid Crew Cab,2012,data\automotive\smoke_test\images\AUTO_0026_chevy_silverado_hybrid_2012.jpg,#chevrolet #truck #cars #automotive #stanfordcars
+AUTO_0027,GMC Canyon Extended Cab 2012,truck,truck,GMC,Canyon Extended Cab,2012,data\automotive\smoke_test\images\AUTO_0027_gmc_canyon_ext_2012.jpg,#gmc #truck #cars #automotive #stanfordcars
+AUTO_0028,Ford F-450 Super Duty Crew Cab 2012,truck,truck,Ford,F-450 Super Duty Crew Cab,2012,data\automotive\smoke_test\images\AUTO_0028_ford_f450_crew_2012.jpg,#ford #truck #cars #automotive #stanfordcars
+AUTO_0029,Ford Ranger SuperCab 2011,truck,truck,Ford,Ranger SuperCab,2011,data\automotive\smoke_test\images\AUTO_0029_ford_ranger_supercab_2011.jpg,#ford #truck #cars #automotive #stanfordcars
+AUTO_0030,Dodge Ram Pickup 3500 Crew Cab 2010,truck,truck,Dodge,Ram Pickup 3500 Crew Cab,2010,data\automotive\smoke_test\images\AUTO_0030_dodge_ram_3500_crewcab_2010.jpg,#dodge #truck #cars #automotive #stanfordcars
+AUTO_0031,Dodge Ram Pickup 3500 Quad Cab 2009,truck,truck,Dodge,Ram Pickup 3500 Quad Cab,2009,data\automotive\smoke_test\images\AUTO_0031_dodge_ram_3500_quadcab_2009.jpg,#dodge #truck #cars #automotive #stanfordcars
+AUTO_0032,BMW 1 Series Convertible 2012,convertible,convertible,BMW,1 Series Convertible,2012,data\automotive\smoke_test\images\AUTO_0032_bmw_1series_conv_2012.jpg,#bmw #convertible #cars #automotive #stanfordcars
+AUTO_0033,Mercedes-Benz 300-Class Convertible 1993,convertible,convertible,Mercedes-Benz,300-Class Convertible,1993,data\automotive\smoke_test\images\AUTO_0033_mercedes_300_conv_1993.jpg,#mercedes-benz #convertible #cars #automotive #stanfordcars
+AUTO_0034,Ferrari California Convertible 2012,convertible,convertible,Ferrari,California Convertible,2012,data\automotive\smoke_test\images\AUTO_0034_ferrari_california_conv_2012.jpg,#ferrari #convertible #cars #automotive #stanfordcars
+AUTO_0035,Bentley Continental Supersports Conv. Convertible 2012,convertible,convertible,Bentley,Continental Supersports Conv. Convertible,2012,data\automotive\smoke_test\images\AUTO_0035_bentley_ss_conv_2012.jpg,#bentley #convertible #cars #automotive #stanfordcars
+AUTO_0036,Bugatti Veyron 16.4 Convertible 2009,convertible,convertible,Bugatti,Veyron 16.4 Convertible,2009,data\automotive\smoke_test\images\AUTO_0036_bugatti_veyron_conv_2009.jpg,#bugatti #convertible #cars #automotive #stanfordcars
+AUTO_0037,smart fortwo Convertible 2012,convertible,convertible,smart,fortwo Convertible,2012,data\automotive\smoke_test\images\AUTO_0037_smart_fortwo_conv_2012.jpg,#smart #convertible #cars #automotive #stanfordcars
+AUTO_0038,Spyker C8 Convertible 2009,convertible,convertible,Spyker,C8 Convertible,2009,data\automotive\smoke_test\images\AUTO_0038_spyker_c8_conv_2009.jpg,#spyker #convertible #cars #automotive #stanfordcars
+AUTO_0039,BMW 3 Series Wagon 2012,wagon,wagon,BMW,3 Series Wagon,2012,data\automotive\smoke_test\images\AUTO_0039_bmw_3series_wagon_2012.jpg,#bmw #wagon #cars #automotive #stanfordcars
+AUTO_0040,Volvo C30 Hatchback 2012,coupe,coupe,Volvo,C30 Hatchback,2012,data\automotive\smoke_test\images\AUTO_0040_volvo_c30_hatch_2012.jpg,#volvo #coupe #cars #automotive #stanfordcars
+AUTO_0041,Chrysler Town and Country Minivan 2012,wagon,wagon,Chrysler,Town and Country Minivan,2012,data\automotive\smoke_test\images\AUTO_0041_chrysler_town_minivan_2012.jpg,#chrysler #wagon #cars #automotive #stanfordcars
+AUTO_0042,Dodge Caravan Minivan 1997,wagon,wagon,Dodge,Caravan Minivan,1997,data\automotive\smoke_test\images\AUTO_0042_dodge_caravan_minivan_1997.jpg,#dodge #wagon #cars #automotive #stanfordcars
+AUTO_0043,Nissan NV Passenger Van 2012,wagon,wagon,Nissan,NV Passenger Van,2012,data\automotive\smoke_test\images\AUTO_0043_nissan_nv_van_2012.jpg,#nissan #wagon #cars #automotive #stanfordcars
+AUTO_0044,Ram C/V Cargo Van Minivan 2012,wagon,wagon,Ram,C/V Cargo Van Minivan,2012,data\automotive\smoke_test\images\AUTO_0044_ram_cv_minivan_2012.jpg,#ram #wagon #cars #automotive #stanfordcars
+AUTO_0045,FIAT 500 Convertible 2012,convertible,convertible,FIAT,500 Convertible,2012,data\automotive\smoke_test\images\AUTO_0045_fiat_500_conv_2012.jpg,#fiat #convertible #cars #automotive #stanfordcars

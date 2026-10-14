@@ -58,6 +58,7 @@ data/forecasts/*
 !data/embeddings/*.csv
 !data/samples/
 !data/fashion_trends/
+*.mat
 
 # External cloned repositories
 reference_repos/

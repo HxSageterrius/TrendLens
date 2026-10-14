@@ -1,0 +1,623 @@
+[
+  {
+    "cluster_id": 0,
+    "cluster_name": "Cluster #1",
+    "item_count": 10,
+    "exemplar_item": {
+      "item_id": "AUTO_0017",
+      "title": "Audi A5 Coupe 2012",
+      "category": "coupe",
+      "style": "coupe",
+      "make": "Audi",
+      "model": "A5 Coupe",
+      "model_year": 2012,
+      "file_path": "data\\automotive\\smoke_test\\images\\AUTO_0017_audi_a5_coupe_2012.jpg",
+      "tags": "#audi #coupe #cars #automotive #stanfordcars",
+      "cluster_id": 0
+    },
+    "dominant_styles": {
+      "sedan": 5,
+      "suv": 3
+    },
+    "dominant_categories": {
+      "sedan": 5,
+      "suv": 3
+    },
+    "items": [
+      {
+        "item_id": "AUTO_0001",
+        "title": "Audi S4 Sedan 2012",
+        "category": "sedan",
+        "style": "sedan",
+        "make": "Audi",
+        "model": "S4 Sedan",
+        "model_year": 2012,
+        "file_path": "data\\automotive\\smoke_test\\images\\AUTO_0001_audi_s4_sedan_2012.jpg",
+        "tags": "#audi #sedan #cars #automotive #stanfordcars",
+        "cluster_id": 0
+      },
+      {
+        "item_id": "AUTO_0002",
+        "title": "BMW 3 Series Sedan 2012",
+        "category": "sedan",
+        "style": "sedan",
+        "make": "BMW",
+        "model": "3 Series Sedan",
+        "model_year": 2012,
+        "file_path": "data\\automotive\\smoke_test\\images\\AUTO_0002_bmw_3series_sedan_2012.jpg",
+        "tags": "#bmw #sedan #cars #automotive #stanfordcars",
+        "cluster_id": 0
+      },
+      {
+        "item_id": "AUTO_0003",
+        "title": "Toyota Camry Sedan 2012",
+        "category": "sedan",
+        "style": "sedan",
+        "make": "Toyota",
+        "model": "Camry Sedan",
+        "model_year": 2012,
+        "file_path": "data\\automotive\\smoke_test\\images\\AUTO_0003_toyota_camry_sedan_2012.jpg",
+        "tags": "#toyota #sedan #cars #automotive #stanfordcars",
+        "cluster_id": 0
+      },
+      {
+        "item_id": "AUTO_0004",
+        "title": "Honda Accord Sedan 2012",
+        "category": "sedan",
+        "style": "sedan",
+        "make": "Honda",
+        "model": "Accord Sedan",
+        "model_year": 2012,
+        "file_path": "data\\automotive\\smoke_test\\images\\AUTO_0004_honda_accord_sedan_2012.jpg",
+        "tags": "#honda #sedan #cars #automotive #stanfordcars",
+        "cluster_id": 0
+      },
+      {
+        "item_id": "AUTO_0008",
+        "title": "Rolls-Royce Phantom Sedan 2012",
+        "category": "sedan",
+        "style": "sedan",
+        "make": "Rolls-Royce",
+        "model": "Phantom Sedan",
+        "model_year": 2012,
+        "file_path": "data\\automotive\\smoke_test\\images\\AUTO_0008_rollsroyce_phantom_sedan_2012.jpg",
+        "tags": "#rolls-royce #sedan #cars #automotive #stanfordcars",
+        "cluster_id": 0
+      },
+      {
+        "item_id": "AUTO_0010",
+        "title": "Jeep Compass SUV 2012",
+        "category": "suv",
+        "style": "suv",
+        "make": "Jeep",
+        "model": "Compass SUV",
+        "model_year": 2012,
+        "file_path": "data\\automotive\\smoke_test\\images\\AUTO_0010_jeep_compass_suv_2012.jpg",
+        "tags": "#jeep #suv #cars #automotive #stanfordcars",
+        "cluster_id": 0
+      },
+      {
+        "item_id": "AUTO_0012",
+        "title": "Toyota 4Runner SUV 2012",
+        "category": "suv",
+        "style": "suv",
+        "make": "Toyota",
+        "model": "4Runner SUV",
+        "model_year": 2012,
+        "file_path": "data\\automotive\\smoke_test\\images\\AUTO_0012_toyota_4runner_suv_2012.jpg",
+        "tags": "#toyota #suv #cars #automotive #stanfordcars",
+        "cluster_id": 0
+      },
+      {
+        "item_id": "AUTO_0013",
+        "title": "BMW X3 SUV 2012",
+        "category": "suv",
+        "style": "suv",
+        "make": "BMW",
+        "model": "X3 SUV",
+        "model_year": 2012,
+        "file_path": "data\\automotive\\smoke_test\\images\\AUTO_0013_bmw_x3_suv_2012.jpg",
+        "tags": "#bmw #suv #cars #automotive #stanfordcars",
+        "cluster_id": 0
+      },
+      {
+        "item_id": "AUTO_0017",
+        "title": "Audi A5 Coupe 2012",
+        "category": "coupe",
+        "style": "coupe",
+        "make": "Audi",
+        "model": "A5 Coupe",
+        "model_year": 2012,
+        "file_path": "data\\automotive\\smoke_test\\images\\AUTO_0017_audi_a5_coupe_2012.jpg",
+        "tags": "#audi #coupe #cars #automotive #stanfordcars",
+        "cluster_id": 0
+      },
+      {
+        "item_id": "AUTO_0025",
+        "title": "Ford F-150 Regular Cab 2012",
+        "category": "truck",
+        "style": "truck",
+        "make": "Ford",
+        "model": "F-150 Regular Cab",
+        "model_year": 2012,
+        "file_path": "data\\automotive\\smoke_test\\images\\AUTO_0025_ford_f150_regularcab_2012.jpg",
+        "tags": "#ford #truck #cars #automotive #stanfordcars",
+        "cluster_id": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 1,
+    "cluster_name": "Cluster #2",
+    "item_count": 14,
+    "exemplar_item": {
+      "item_id": "AUTO_0016",
+      "title": "Jeep Grand Cherokee SUV 2012",
+      "category": "suv",
+      "style": "suv",
+      "make": "Jeep",
+      "model": "Grand Cherokee SUV",
+      "model_year": 2012,
+      "file_path": "data\\automotive\\smoke_test\\images\\AUTO_0016_jeep_grandcherokee_suv_2012.jpg",
+      "tags": "#jeep #suv #cars #automotive #stanfordcars",
+      "cluster_id": 1
+    },
+    "dominant_styles": {
+      "truck": 6,
+      "wagon": 4
+    },
+    "dominant_categories": {
+      "truck": 6,
+      "wagon": 4
+    },
+    "items": [
+      {
+        "item_id": "AUTO_0009",
+        "title": "Chevrolet TrailBlazer SS 2009",
+        "category": "other",
+        "style": "other",
+        "make": "Chevrolet",
+        "model": "TrailBlazer SS",
+        "model_year": 2009,
+        "file_path": "data\\automotive\\smoke_test\\images\\AUTO_0009_chevy_trailblazer_ss_2009.jpg",
+        "tags": "#chevrolet #other #cars #automotive #stanfordcars",
+        "cluster_id": 1
+      },
+      {
+        "item_id": "AUTO_0011",
+        "title": "Land Rover Range Rover SUV 2012",
+        "category": "suv",
+        "style": "suv",
+        "make": "Land",
+        "model": "Rover Range Rover SUV",
+        "model_year": 2012,
+        "file_path": "data\\automotive\\smoke_test\\images\\AUTO_0011_landrover_rangerover_suv_2012.jpg",
+        "tags": "#land #suv #cars #automotive #stanfordcars",
+        "cluster_id": 1
+      },
+      {
+        "item_id": "AUTO_0015",
+        "title": "Ford Edge SUV 2012",
+        "category": "suv",
+        "style": "suv",
+        "make": "Ford",
+        "model": "Edge SUV",
+        "model_year": 2012,
+        "file_path": "data\\automotive\\smoke_test\\images\\AUTO_0015_ford_edge_suv_2012.jpg",
+        "tags": "#ford #suv #cars #automotive #stanfordcars",
+        "cluster_id": 1
+      },
+      {
+        "item_id": "AUTO_0016",
+        "title": "Jeep Grand Cherokee SUV 2012",
+        "category": "suv",
+        "style": "suv",
+        "make": "Jeep",
+        "model": "Grand Cherokee SUV",
+        "model_year": 2012,
+        "file_path": "data\\automotive\\smoke_test\\images\\AUTO_0016_jeep_grandcherokee_suv_2012.jpg",
+        "tags": "#jeep #suv #cars #automotive #stanfordcars",
+        "cluster_id": 1
+      },
+      {
+        "item_id": "AUTO_0026",
+        "title": "Chevrolet Silverado 1500 Hybrid Crew Cab 2012",
+        "category": "truck",
+        "style": "truck",
+        "make": "Chevrolet",
+        "model": "Silverado 1500 Hybrid Crew Cab",
+        "model_year": 2012,
+        "file_path": "data\\automotive\\smoke_test\\images\\AUTO_0026_chevy_silverado_hybrid_2012.jpg",
+        "tags": "#chevrolet #truck #cars #automotive #stanfordcars",
+        "cluster_id": 1
+      },
+      {
+        "item_id": "AUTO_0027",
+        "title": "GMC Canyon Extended Cab 2012",
+        "category": "truck",
+        "style": "truck",
+        "make": "GMC",
+        "model": "Canyon Extended Cab",
+        "model_year": 2012,
+        "file_path": "data\\automotive\\smoke_test\\images\\AUTO_0027_gmc_canyon_ext_2012.jpg",
+        "tags": "#gmc #truck #cars #automotive #stanfordcars",
+        "cluster_id": 1
+      },
+      {
+        "item_id": "AUTO_0028",
+        "title": "Ford F-450 Super Duty Crew Cab 2012",
+        "category": "truck",
+        "style": "truck",
+        "make": "Ford",
+        "model": "F-450 Super Duty Crew Cab",
+        "model_year": 2012,
+        "file_path": "data\\automotive\\smoke_test\\images\\AUTO_0028_ford_f450_crew_2012.jpg",
+        "tags": "#ford #truck #cars #automotive #stanfordcars",
+        "cluster_id": 1
+      },
+      {
+        "item_id": "AUTO_0029",
+        "title": "Ford Ranger SuperCab 2011",
+        "category": "truck",
+        "style": "truck",
+        "make": "Ford",
+        "model": "Ranger SuperCab",
+        "model_year": 2011,
+        "file_path": "data\\automotive\\smoke_test\\images\\AUTO_0029_ford_ranger_supercab_2011.jpg",
+        "tags": "#ford #truck #cars #automotive #stanfordcars",
+        "cluster_id": 1
+      },
+      {
+        "item_id": "AUTO_0030",
+        "title": "Dodge Ram Pickup 3500 Crew Cab 2010",
+        "category": "truck",
+        "style": "truck",
+        "make": "Dodge",
+        "model": "Ram Pickup 3500 Crew Cab",
+        "model_year": 2010,
+        "file_path": "data\\automotive\\smoke_test\\images\\AUTO_0030_dodge_ram_3500_crewcab_2010.jpg",
+        "tags": "#dodge #truck #cars #automotive #stanfordcars",
+        "cluster_id": 1
+      },
+      {
+        "item_id": "AUTO_0031",
+        "title": "Dodge Ram Pickup 3500 Quad Cab 2009",
+        "category": "truck",
+        "style": "truck",
+        "make": "Dodge",
+        "model": "Ram Pickup 3500 Quad Cab",
+        "model_year": 2009,
+        "file_path": "data\\automotive\\smoke_test\\images\\AUTO_0031_dodge_ram_3500_quadcab_2009.jpg",
+        "tags": "#dodge #truck #cars #automotive #stanfordcars",
+        "cluster_id": 1
+      },
+      {
+        "item_id": "AUTO_0041",
+        "title": "Chrysler Town and Country Minivan 2012",
+        "category": "wagon",
+        "style": "wagon",
+        "make": "Chrysler",
+        "model": "Town and Country Minivan",
+        "model_year": 2012,
+        "file_path": "data\\automotive\\smoke_test\\images\\AUTO_0041_chrysler_town_minivan_2012.jpg",
+        "tags": "#chrysler #wagon #cars #automotive #stanfordcars",
+        "cluster_id": 1
+      },
+      {
+        "item_id": "AUTO_0042",
+        "title": "Dodge Caravan Minivan 1997",
+        "category": "wagon",
+        "style": "wagon",
+        "make": "Dodge",
+        "model": "Caravan Minivan",
+        "model_year": 1997,
+        "file_path": "data\\automotive\\smoke_test\\images\\AUTO_0042_dodge_caravan_minivan_1997.jpg",
+        "tags": "#dodge #wagon #cars #automotive #stanfordcars",
+        "cluster_id": 1
+      },
+      {
+        "item_id": "AUTO_0043",
+        "title": "Nissan NV Passenger Van 2012",
+        "category": "wagon",
+        "style": "wagon",
+        "make": "Nissan",
+        "model": "NV Passenger Van",
+        "model_year": 2012,
+        "file_path": "data\\automotive\\smoke_test\\images\\AUTO_0043_nissan_nv_van_2012.jpg",
+        "tags": "#nissan #wagon #cars #automotive #stanfordcars",
+        "cluster_id": 1
+      },
+      {
+        "item_id": "AUTO_0044",
+        "title": "Ram C/V Cargo Van Minivan 2012",
+        "category": "wagon",
+        "style": "wagon",
+        "make": "Ram",
+        "model": "C/V Cargo Van Minivan",
+        "model_year": 2012,
+        "file_path": "data\\automotive\\smoke_test\\images\\AUTO_0044_ram_cv_minivan_2012.jpg",
+        "tags": "#ram #wagon #cars #automotive #stanfordcars",
+        "cluster_id": 1
+      }
+    ]
+  },
+  {
+    "cluster_id": 2,
+    "cluster_name": "Cluster #3",
+    "item_count": 21,
+    "exemplar_item": {
+      "item_id": "AUTO_0007",
+      "title": "Toyota Corolla Sedan 2012",
+      "category": "sedan",
+      "style": "sedan",
+      "make": "Toyota",
+      "model": "Corolla Sedan",
+      "model_year": 2012,
+      "file_path": "data\\automotive\\smoke_test\\images\\AUTO_0007_toyota_corolla_sedan_2012.jpg",
+      "tags": "#toyota #sedan #cars #automotive #stanfordcars",
+      "cluster_id": 2
+    },
+    "dominant_styles": {
+      "convertible": 8,
+      "coupe": 7
+    },
+    "dominant_categories": {
+      "convertible": 8,
+      "coupe": 7
+    },
+    "items": [
+      {
+        "item_id": "AUTO_0005",
+        "title": "Mercedes-Benz C-Class Sedan 2012",
+        "category": "sedan",
+        "style": "sedan",
+        "make": "Mercedes-Benz",
+        "model": "C-Class Sedan",
+        "model_year": 2012,
+        "file_path": "data\\automotive\\smoke_test\\images\\AUTO_0005_mercedes_c_sedan_2012.jpg",
+        "tags": "#mercedes-benz #sedan #cars #automotive #stanfordcars",
+        "cluster_id": 2
+      },
+      {
+        "item_id": "AUTO_0006",
+        "title": "Hyundai Sonata Sedan 2012",
+        "category": "sedan",
+        "style": "sedan",
+        "make": "Hyundai",
+        "model": "Sonata Sedan",
+        "model_year": 2012,
+        "file_path": "data\\automotive\\smoke_test\\images\\AUTO_0006_hyundai_sonata_sedan_2012.jpg",
+        "tags": "#hyundai #sedan #cars #automotive #stanfordcars",
+        "cluster_id": 2
+      },
+      {
+        "item_id": "AUTO_0007",
+        "title": "Toyota Corolla Sedan 2012",
+        "category": "sedan",
+        "style": "sedan",
+        "make": "Toyota",
+        "model": "Corolla Sedan",
+        "model_year": 2012,
+        "file_path": "data\\automotive\\smoke_test\\images\\AUTO_0007_toyota_corolla_sedan_2012.jpg",
+        "tags": "#toyota #sedan #cars #automotive #stanfordcars",
+        "cluster_id": 2
+      },
+      {
+        "item_id": "AUTO_0014",
+        "title": "Hyundai Tucson SUV 2012",
+        "category": "suv",
+        "style": "suv",
+        "make": "Hyundai",
+        "model": "Tucson SUV",
+        "model_year": 2012,
+        "file_path": "data\\automotive\\smoke_test\\images\\AUTO_0014_hyundai_tucson_suv_2012.jpg",
+        "tags": "#hyundai #suv #cars #automotive #stanfordcars",
+        "cluster_id": 2
+      },
+      {
+        "item_id": "AUTO_0018",
+        "title": "BMW M3 Coupe 2012",
+        "category": "coupe",
+        "style": "coupe",
+        "make": "BMW",
+        "model": "M3 Coupe",
+        "model_year": 2012,
+        "file_path": "data\\automotive\\smoke_test\\images\\AUTO_0018_bmw_m3_coupe_2012.jpg",
+        "tags": "#bmw #coupe #cars #automotive #stanfordcars",
+        "cluster_id": 2
+      },
+      {
+        "item_id": "AUTO_0019",
+        "title": "Audi TT RS Coupe 2012",
+        "category": "coupe",
+        "style": "coupe",
+        "make": "Audi",
+        "model": "TT RS Coupe",
+        "model_year": 2012,
+        "file_path": "data\\automotive\\smoke_test\\images\\AUTO_0019_audi_ttrs_coupe_2012.jpg",
+        "tags": "#audi #coupe #cars #automotive #stanfordcars",
+        "cluster_id": 2
+      },
+      {
+        "item_id": "AUTO_0020",
+        "title": "Honda Accord Coupe 2012",
+        "category": "coupe",
+        "style": "coupe",
+        "make": "Honda",
+        "model": "Accord Coupe",
+        "model_year": 2012,
+        "file_path": "data\\automotive\\smoke_test\\images\\AUTO_0020_honda_accord_coupe_2012.jpg",
+        "tags": "#honda #coupe #cars #automotive #stanfordcars",
+        "cluster_id": 2
+      },
+      {
+        "item_id": "AUTO_0021",
+        "title": "Dodge Challenger SRT8 2011",
+        "category": "other",
+        "style": "other",
+        "make": "Dodge",
+        "model": "Challenger SRT8",
+        "model_year": 2011,
+        "file_path": "data\\automotive\\smoke_test\\images\\AUTO_0021_dodge_challenger_srt8_2011.jpg",
+        "tags": "#dodge #other #cars #automotive #stanfordcars",
+        "cluster_id": 2
+      },
+      {
+        "item_id": "AUTO_0022",
+        "title": "Bentley Continental GT Coupe 2012",
+        "category": "coupe",
+        "style": "coupe",
+        "make": "Bentley",
+        "model": "Continental GT Coupe",
+        "model_year": 2012,
+        "file_path": "data\\automotive\\smoke_test\\images\\AUTO_0022_bentley_cont_gt_coupe_2012.jpg",
+        "tags": "#bentley #coupe #cars #automotive #stanfordcars",
+        "cluster_id": 2
+      },
+      {
+        "item_id": "AUTO_0023",
+        "title": "Lamborghini Aventador Coupe 2012",
+        "category": "coupe",
+        "style": "coupe",
+        "make": "Lamborghini",
+        "model": "Aventador Coupe",
+        "model_year": 2012,
+        "file_path": "data\\automotive\\smoke_test\\images\\AUTO_0023_lamborghini_aventador_2012.jpg",
+        "tags": "#lamborghini #coupe #cars #automotive #stanfordcars",
+        "cluster_id": 2
+      },
+      {
+        "item_id": "AUTO_0024",
+        "title": "Volkswagen Golf Hatchback 2012",
+        "category": "coupe",
+        "style": "coupe",
+        "make": "Volkswagen",
+        "model": "Golf Hatchback",
+        "model_year": 2012,
+        "file_path": "data\\automotive\\smoke_test\\images\\AUTO_0024_vw_golf_hatchback_2012.jpg",
+        "tags": "#volkswagen #coupe #cars #automotive #stanfordcars",
+        "cluster_id": 2
+      },
+      {
+        "item_id": "AUTO_0032",
+        "title": "BMW 1 Series Convertible 2012",
+        "category": "convertible",
+        "style": "convertible",
+        "make": "BMW",
+        "model": "1 Series Convertible",
+        "model_year": 2012,
+        "file_path": "data\\automotive\\smoke_test\\images\\AUTO_0032_bmw_1series_conv_2012.jpg",
+        "tags": "#bmw #convertible #cars #automotive #stanfordcars",
+        "cluster_id": 2
+      },
+      {
+        "item_id": "AUTO_0033",
+        "title": "Mercedes-Benz 300-Class Convertible 1993",
+        "category": "convertible",
+        "style": "convertible",
+        "make": "Mercedes-Benz",
+        "model": "300-Class Convertible",
+        "model_year": 1993,
+        "file_path": "data\\automotive\\smoke_test\\images\\AUTO_0033_mercedes_300_conv_1993.jpg",
+        "tags": "#mercedes-benz #convertible #cars #automotive #stanfordcars",
+        "cluster_id": 2
+      },
+      {
+        "item_id": "AUTO_0034",
+        "title": "Ferrari California Convertible 2012",
+        "category": "convertible",
+        "style": "convertible",
+        "make": "Ferrari",
+        "model": "California Convertible",
+        "model_year": 2012,
+        "file_path": "data\\automotive\\smoke_test\\images\\AUTO_0034_ferrari_california_conv_2012.jpg",
+        "tags": "#ferrari #convertible #cars #automotive #stanfordcars",
+        "cluster_id": 2
+      },
+      {
+        "item_id": "AUTO_0035",
+        "title": "Bentley Continental Supersports Conv. Convertible 2012",
+        "category": "convertible",
+        "style": "convertible",
+        "make": "Bentley",
+        "model": "Continental Supersports Conv. Convertible",
+        "model_year": 2012,
+        "file_path": "data\\automotive\\smoke_test\\images\\AUTO_0035_bentley_ss_conv_2012.jpg",
+        "tags": "#bentley #convertible #cars #automotive #stanfordcars",
+        "cluster_id": 2
+      },
+      {
+        "item_id": "AUTO_0036",
+        "title": "Bugatti Veyron 16.4 Convertible 2009",
+        "category": "convertible",
+        "style": "convertible",
+        "make": "Bugatti",
+        "model": "Veyron 16.4 Convertible",
+        "model_year": 2009,
+        "file_path": "data\\automotive\\smoke_test\\images\\AUTO_0036_bugatti_veyron_conv_2009.jpg",
+        "tags": "#bugatti #convertible #cars #automotive #stanfordcars",
+        "cluster_id": 2
+      },
+      {
+        "item_id": "AUTO_0037",
+        "title": "smart fortwo Convertible 2012",
+        "category": "convertible",
+        "style": "convertible",
+        "make": "smart",
+        "model": "fortwo Convertible",
+        "model_year": 2012,
+        "file_path": "data\\automotive\\smoke_test\\images\\AUTO_0037_smart_fortwo_conv_2012.jpg",
+        "tags": "#smart #convertible #cars #automotive #stanfordcars",
+        "cluster_id": 2
+      },
+      {
+        "item_id": "AUTO_0038",
+        "title": "Spyker C8 Convertible 2009",
+        "category": "convertible",
+        "style": "convertible",
+        "make": "Spyker",
+        "model": "C8 Convertible",
+        "model_year": 2009,
+        "file_path": "data\\automotive\\smoke_test\\images\\AUTO_0038_spyker_c8_conv_2009.jpg",
+        "tags": "#spyker #convertible #cars #automotive #stanfordcars",
+        "cluster_id": 2
+      },
+      {
+        "item_id": "AUTO_0039",
+        "title": "BMW 3 Series Wagon 2012",
+        "category": "wagon",
+        "style": "wagon",
+        "make": "BMW",
+        "model": "3 Series Wagon",
+        "model_year": 2012,
+        "file_path": "data\\automotive\\smoke_test\\images\\AUTO_0039_bmw_3series_wagon_2012.jpg",
+        "tags": "#bmw #wagon #cars #automotive #stanfordcars",
+        "cluster_id": 2
+      },
+      {
+        "item_id": "AUTO_0040",
+        "title": "Volvo C30 Hatchback 2012",
+        "category": "coupe",
+        "style": "coupe",
+        "make": "Volvo",
+        "model": "C30 Hatchback",
+        "model_year": 2012,
+        "file_path": "data\\automotive\\smoke_test\\images\\AUTO_0040_volvo_c30_hatch_2012.jpg",
+        "tags": "#volvo #coupe #cars #automotive #stanfordcars",
+        "cluster_id": 2
+      },
+      {
+        "item_id": "AUTO_0045",
+        "title": "FIAT 500 Convertible 2012",
+        "category": "convertible",
+        "style": "convertible",
+        "make": "FIAT",
+        "model": "500 Convertible",
+        "model_year": 2012,
+        "file_path": "data\\automotive\\smoke_test\\images\\AUTO_0045_fiat_500_conv_2012.jpg",
+        "tags": "#fiat #convertible #cars #automotive #stanfordcars",
+        "cluster_id": 2
+      }
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+Stanford Cars Dataset License & Attribution Notice
+==================================================
+
+The images in this directory are part of the Stanford Cars Dataset, created by:
+Jonathan Krause, Michael Stark, Jia Deng, and Li Fei-Fei (Stanford University).
+
+Terms:
+1. For non-commercial research, academic evaluation, and educational use only.
+2. No commercial distribution or re-licensing is permitted.
+3. Citation of the original publication (ICCV 2013) is required in any published work.
+
+See ATTRIBUTION.md for detailed metadata, bibtex entry, and usage guidelines.

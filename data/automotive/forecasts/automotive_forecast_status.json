@@ -1,0 +1,9 @@
+{
+  "status": "disabled",
+  "reason": "Automotive forecasting requires real sales, search-volume, or registration data with temporal coverage. The Stanford Cars model_year labels encode production year only and must NOT be treated as a popularity or trend signal.",
+  "data_needed": [
+    "Monthly/weekly sales figures by model (e.g. BLS / OEM reports)",
+    "Google Trends search volumes by model name",
+    "Vehicle registration statistics (e.g. DVLA / DMV open data)"
+  ]
+}
